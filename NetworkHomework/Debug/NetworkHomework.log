@@ -1,0 +1,22 @@
+﻿生成启动时间为 2015/6/16 20:55:41。
+     1>项目“D:\Code\NetworkHomework\NetworkHomework\NetworkHomework.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\NetworkHomework.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt NetworkHomework.cpp function.cpp
+         function.cpp
+     1>d:\code\networkhomework\networkhomework\function.cpp(44): warning C4244: “参数”: 从“std::streamoff”转换到“size_t”，可能丢失数据
+     1>d:\code\networkhomework\networkhomework\function.cpp(45): warning C4244: “参数”: 从“std::streamoff”转换到“size_t”，可能丢失数据
+     1>d:\code\networkhomework\networkhomework\function.cpp(46): warning C4244: “参数”: 从“std::streamoff”转换到“size_t”，可能丢失数据
+         NetworkHomework.cpp
+         正在生成代码...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Code\NetworkHomework\Debug\NetworkHomework.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Code\NetworkHomework\Debug\NetworkHomework.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Code\NetworkHomework\Debug\NetworkHomework.lib" /MACHINE:X86 Debug\function.obj
+         Debug\http.obj
+         Debug\mime.obj
+         Debug\NetworkHomework.obj
+         Debug\stdafx.obj
+         NetworkHomework.vcxproj -> D:\Code\NetworkHomework\Debug\NetworkHomework.exe
+     1>已完成生成项目“D:\Code\NetworkHomework\NetworkHomework\NetworkHomework.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.87
